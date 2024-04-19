@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+        }
+        body {
+            background-color: rgba(21, 21, 94, 0.859);
+            color: white;
+            font-family: 'Roboto Condensed', sans-serif; /* Change to Roboto Condensed for consistency */
+            line-height: 1.6; /* Improved readability */
+        }
+        nav {
+            display: flex;
+            justify-content: space-between; /* Changed to space-between */
+            align-items: center;
+            height: 100px;
+            background-color: rgba(12, 87, 184, 0.677);
+            padding: 0 20px; /* Added padding for better spacing */
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        nav ul li {
+            margin-right: 20px; /* Adjusted margin */
+        }
+        nav ul li:last-child {
+            margin-right: 0; /* Remove margin from the last item */
+        }
+        nav ul li a {
+            text-decoration: none; /* Corrected property name */
+            color: white;
+            transition: color 0.3s; /* Smooth color transition */
+        }
+        nav ul li a:hover {
+            color: rgb(167, 167, 247);
+        }
+        .contactSection {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 80px;
+        }
+        .contactSection h2 {
+            margin-bottom: 20px;
+        }
+        .contactMethods {
+            display: flex;
+            justify-content: space-around;
+            width: 70%;
+            margin-top: 40px;
+        }
+        .contactMethod {
+            text-align: center;
+            width: 30%;
+        }
+        .contactMethod img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .contactMethod h3 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+        .contactMethod p {
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .footer{
+            background-color: rgba(3, 3, 74, 0.516);
+            height: 233px;
+            
+    
+        }
+
+        .footer{
+            display: flex; 
+            padding: 23px 122px;
+        }
+        .footer>div{
+            width:223px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"></div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="research.html">Research papers</a></li>
+                    
+                     <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="contactSection">
+            <h2>Contact Me</h2>
+            <div class="contactMethods">
+                <div class="contactMethod">
+                    <img src="email.jpeg" alt="Email">
+                    <h3>Email</h3>
+                    <p>borabrahmi@gmail.com</p>
+                </div>
+                <div class="contactMethod">
+                    <img src="contacvt.jpeg" alt="Phone">
+                    <h3>Phone</h3>
+                    <p>+91 7302329821</p>
+                </div>
+                
+            
+        </section>
+    </main>
+</body>
+<footer>
+    <div class="footer">
+        <div class="first">
+            <h3>Research papers</h3>
+        </div>
+        <div class="second">
+            
+        </div>
+        <div class="third">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="research.html">Research papers</a></li>
+                
+                 <li><a href="contact.html">Contact me</a></li>
+            </ul>
+        </div>
+        <div class="fourth">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="research.html">Research papers</a></li>
+                
+                 <li><a href="contact.html">Contact me</a></li>
+            </ul>
+        </div>
+    </div>
+    
+ </footer>
+</html>

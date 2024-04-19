@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brahmi bora| Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color : rgba(21, 21, 94, 0.859);
+            color: white;
+            font-family: 'Poppins' , sans-serif;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgba(12, 87, 184, 0.677);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration-style: none;
+            color: white;
+        }
+        nav ul li a:hover{
+        
+            color: rgb(167, 167, 247);
+            font-size: 1.04rem;
+        }
+        main hr{
+            border: 0;
+            background-color: rgb(167, 167, 247);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        a {
+            color:white; /* Change color to red */
+            text-decoration: none; /* Remove underline */
+        }
+
+        /* CSS to change link color on hover */
+        a:hover {
+            color: #00ff00; /* Change color to green on hover */
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+        }
+        .firstSection >div{
+            width: 30%;
+        }
+        .leftSection{
+           
+            font-size: 3rem;
+            
+        }
+        .leftSection .btn{
+           
+           padding:12px;
+           background-color: rgba(243, 161, 243, 0.697);
+           border: 2px solid white;
+           border border-radius: 6px;
+           font-size:20px;
+           cursor: pointer;
+           
+       }
+        
+        .rightSection img{
+            width: 60%;
+            margin: 30px 0;
+        }
+        .purple{
+          
+            color: rgba(216, 183, 248, 0.468);
+        }
+        #element{
+            color: rgba(216, 183, 248, 0.468);
+    
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 60vh;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        .text-grey{
+            color: gray;
+        }
+        .secondSection .box{
+            background-color: white;
+            width: 60vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 220px;
+
+
+        }
+        .image-first{
+            width: 38px;
+            position: relative;
+            top: -30px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+
+        } .footer{
+            background-color: rgba(3, 3, 74, 0.516);
+            height: 233px;
+            
+    
+        }
+
+        .footer{
+            display: flex; 
+            padding: 23px 122px;
+        }
+        .footer>div{
+            width:223px;
+
+        }
+
+    </style>
+</head>
+<body>
+     <header>
+        <nav>
+            <div class="left">Brahmi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="research.html">Research papers</a></li>
+                    
+                     <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+     </header>
+     <main>
+        <section class="firstSection">
+            <div class="leftSection">
+        Hi, My name is <span class="purple">Brahmi bora</span>
+        <div>I am passionate</div>
+        <span id="element"></span>
+        <div class="buttons">
+            <button class="btn"> <a href="brahmi bora resume.pdf"  alt="">Download Resume</a></button>
+        </div>
+            </div>
+        <div class="rightSection">
+        <img src="pg.png.png" alt="">
+        </div>
+
+        </section>
+        <section class="secondSection">
+            <span class="text-grey">What I have done so far </span>
+            <h1>Extra curriculum </h1>
+            
+            <div class="box">
+                
+                <div class="vertical">
+                    <img class="image-first" src="radio.jpeg" alt="">
+                    <div class="vertical-title">
+                        Talk at AIR almora(2023)
+                    </div>
+                    <div class="vertical-desc">
+                        I have delivered a talk on the topic 
+                        Artificial Intelligence at All India 
+                        Radio,almora. 
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-first" src="cloud.jpeg" alt="">
+                    <div class="vertical-title">
+                        Cloud Computing(2023)
+                    </div>
+                    <div class="vertical-desc">
+                        I have accomplished a online couse on 
+                        cloud computing through SWAYAM.
+                    </div>
+                </div>
+                        
+            </div>
+        </section>
+     </main>
+     <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Brahmi's portfolio</h3>
+            </div>
+            <div class="second">
+                
+            </div>
+            <div class="third">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="research.html">Research papers</a></li>
+                    
+                     <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+            <div class="fourth">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="research.html">Research papers</a></li>
+                    
+                     <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+        </div>
+        
+     </footer>
+     
+      </script>
+     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <script>
+        var typed = new Typed('#element', {
+          strings: ['Computer Science Student', 'Web Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>

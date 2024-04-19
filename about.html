@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+        }
+        body {
+            background-color: rgba(21, 21, 94, 0.859);
+            color: white;
+            font-family: 'Roboto Condensed', sans-serif; /* Change to Roboto Condensed for consistency */
+            line-height: 1.6; /* Improved readability */
+        }
+        nav {
+            display: flex;
+            justify-content: space-between; /* Changed to space-between */
+            align-items: center;
+            height: 100px;
+            background-color: rgba(12, 87, 184, 0.677);
+            padding: 0 20px; /* Added padding for better spacing */
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        nav ul li {
+            margin-right: 20px; /* Adjusted margin */
+        }
+        nav ul li:last-child {
+            margin-right: 0; /* Remove margin from the last item */
+        }
+        nav ul li a {
+            text-decoration: none; /* Corrected property name */
+            color: white;
+            transition: color 0.3s; /* Smooth color transition */
+        }
+        nav ul li a:hover {
+            color: rgb(167, 167, 247);
+        }
+        main hr {
+            border: 0;
+            background-color: rgb(167, 167, 247);
+            height: 1px;
+            margin: 40px 0; /* Adjusted margin */
+        }
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0; /* Adjusted margin */
+            padding: 0 20px; /* Added padding */
+        }
+        .leftSection {
+            display: flex;
+            flex-wrap: wrap; /* Added to wrap images */
+            justify-content: center;
+            max-width: 400px; /* Limit maximum width */
+        }
+        .leftSection img {
+            width: 100px; /* Adjust image width */
+            height: 100px; /* Adjust image height */
+            margin: 10px; /* Added margin */
+            border-radius: 50%; /* Rounded images */
+            object-fit: cover; /* Maintain aspect ratio */
+        }
+        .rightSection {
+            max-width: 600px; /* Limit maximum width */
+            font-size: 1.2rem; /* Adjusted font size */
+        }
+        .rightSection div {
+            margin-bottom: 20px; /* Added margin for spacing */
+        }
+        .footer {
+            background-color: rgba(3, 3, 74, 0.516);
+            padding: 20px; /* Added padding */
+            text-align: center; /* Center align footer content */
+        }
+        .footer > div {
+            margin-bottom: 20px; /* Added margin for spacing */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"></div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="research.html">Research papers</a></li>
+                    
+                     <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <img src="badmin.jpeg" alt="">
+                <img src="mounta.jpeg" alt="">
+                <img src="bal.jpeg" alt="">
+                <img src="friends.jpeg" alt="">
+                <img src="kumaoni.jpeg" alt="">
+            </div>
+            <div class="rightSection">
+                <p>
+                    My name is Brahmi Bora. "Brahmi" is a medicine good for the brain and also one of the powers of Maa Gayatri. I am Kumaoni. My hometown is Almora, a very beautiful place famous for "Baal Mithai".
+                </p>
+                <p>
+                    I have changed seven schools in my school life. I can vibe up easily with others. I am pursuing BTech CSE from Graphic Era Hill University, Dehradun. I played badminton for 5 years and secured CBSE Nationals Silver. From the very first, I participated in co-curricular activities.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="second">
+            </div>
+            <div class="third">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="research.html">Research papers</a></li>
+                    
+                     <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+</body>
+</html>
